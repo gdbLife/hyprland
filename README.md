@@ -26,3 +26,8 @@ yay -S waybar-git otf-font-awesome
 ln -f waybar/config.jsonc   ~/.config/waybar/config.jsonc
 ln -f waybar/style.css      ~/.config/waybar/style.css
 ```
+
+* wofi
+```bash
+yay -S wofi
+```
