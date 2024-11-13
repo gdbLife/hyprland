@@ -17,3 +17,12 @@ ln -f hypr/monitors.conf        ~/.config/hypr/monitors.conf
 ln -f hypr/programs.conf        ~/.config/hypr/programs.conf
 ln -f hypr/windows_and_workspaces.conf ~/.config/hypr/windows_and_workspaces.conf
 ```
+
+* waybar-git
+```bash
+yay -S waybar-git otf-font-awesome
+```
+```bash
+ln -f waybar/config.jsonc   ~/.config/waybar/config.jsonc
+ln -f waybar/style.css      ~/.config/waybar/style.css
+```
