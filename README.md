@@ -31,3 +31,11 @@ ln -f waybar/style.css      ~/.config/waybar/style.css
 ```bash
 yay -S wofi
 ```
+
+* kitty
+```bash
+yay -S kitty
+```
+```bash
+ln -f kitty/kitty.conf  ~/.config/kitty/kitty.conf
+```
