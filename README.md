@@ -4,7 +4,7 @@ Install Packages:
 
 * hyprland-git
 ```bash
-yay -S hyprland-git
+yay -S hyprland-git brightnessctl
 ```
 ```bash
 ln -f hyprland.conf             ~/.config/hypr/hyprland.conf
