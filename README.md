@@ -4,7 +4,7 @@ Install Packages:
 
 * hyprland
 ```bash
-sudo pacman -S hyprland brightnessctl
+sudo pacman -S hyprland brightnessctl xdg-desktop-portal-hyprland
 ```
 ```bash
 ln -f hyprland.conf             ~/.config/hypr/hyprland.conf
