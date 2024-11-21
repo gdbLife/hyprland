@@ -2,9 +2,9 @@ My hyprland settings
 
 Install Packages:
 
-* hyprland-git
+* hyprland
 ```bash
-yay -S hyprland-git brightnessctl
+sudo pacman -S hyprland brightnessctl
 ```
 ```bash
 ln -f hyprland.conf             ~/.config/hypr/hyprland.conf
@@ -18,9 +18,9 @@ ln -f hypr/programs.conf        ~/.config/hypr/programs.conf
 ln -f hypr/windows_and_workspaces.conf ~/.config/hypr/windows_and_workspaces.conf
 ```
 
-* waybar-git
+* waybar
 ```bash
-yay -S waybar-git otf-font-awesome
+sudo pacman -S waybar otf-font-awesome
 ```
 ```bash
 ln -f waybar/config.jsonc   ~/.config/waybar/config.jsonc
@@ -29,12 +29,12 @@ ln -f waybar/style.css      ~/.config/waybar/style.css
 
 * wofi
 ```bash
-yay -S wofi
+sudo pacman -S wofi
 ```
 
 * kitty
 ```bash
-yay -S kitty
+sudo pacman -S kitty
 ```
 ```bash
 ln -f kitty/kitty.conf  ~/.config/kitty/kitty.conf
