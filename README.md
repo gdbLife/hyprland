@@ -16,6 +16,8 @@ ln -f hypr/configs/keybindings.conf     ~/.config/hypr/keybindings.conf
 ln -f hypr/configs/monitors.conf        ~/.config/hypr/monitors.conf
 ln -f hypr/configs/programs.conf        ~/.config/hypr/programs.conf
 ln -f hypr/configs/windows_and_workspaces.conf ~/.config/hypr/windows_and_workspaces.conf
+
+ln -f hypr/xdph.conf    ~/.config/hypr/xdph.conf
 ```
 
 * waybar
