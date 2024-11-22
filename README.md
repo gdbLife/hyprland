@@ -4,7 +4,7 @@ Install Packages:
 
 * hyprland
 ```bash
-sudo pacman -S hyprland brightnessctl xdg-desktop-portal-hyprland
+sudo pacman -S hyprland brightnessctl xdg-desktop-portal-hyprland hyprpaper
 ```
 ```bash
 ln -f hypr/hyprland.conf                ~/.config/hypr/hyprland.conf
@@ -17,7 +17,8 @@ ln -f hypr/configs/monitors.conf        ~/.config/hypr/monitors.conf
 ln -f hypr/configs/programs.conf        ~/.config/hypr/programs.conf
 ln -f hypr/configs/windows_and_workspaces.conf ~/.config/hypr/windows_and_workspaces.conf
 
-ln -f hypr/xdph.conf    ~/.config/hypr/xdph.conf
+ln -f hypr/xdph.conf        ~/.config/hypr/xdph.conf
+ln -f hypr/hyprpaper.conf   ~/.config/hypr/hyprpaper.conf
 ```
 
 * waybar
