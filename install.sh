@@ -19,6 +19,7 @@ packages=(
   hyprland
   brightnessctl
   xdg-desktop-portal-hyprland
+  xdg-desktop-portal-gtk
   hyprpaper
   waybar
   otf-font-awesome

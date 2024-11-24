@@ -5,16 +5,17 @@
 * __Hyprland__
 	* hyprland
 	* brightnessctl
-* __Xdg-desktop-portal-hyprland__
+* __Screen sharing__
 	* xdg-desktop-portal-hyprland
-* __Hyprpaper__
+	* xdg-desktop-portal-gtk
+* __Wallpapers__
 	* hyprpaper
-* __Waybar__
+* __Status bar__
 	* waybar
 	* otf-font-awesome
-* __Wofi__
+* __Application launcher__
 	* wofi
-* __Kitty__
+* __Terminal__
 	* kitty
 
 ```bash
