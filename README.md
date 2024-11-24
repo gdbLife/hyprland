@@ -8,6 +8,8 @@
 * __Screen sharing__
 	* xdg-desktop-portal-hyprland
 	* xdg-desktop-portal-gtk
+	* wireplumber
+	* pipewire
 * __Wallpapers__
 	* hyprpaper
 * __Status bar__

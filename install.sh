@@ -20,6 +20,8 @@ packages=(
   brightnessctl
   xdg-desktop-portal-hyprland
   xdg-desktop-portal-gtk
+  wireplumber
+  pipewire
   hyprpaper
   waybar
   otf-font-awesome
