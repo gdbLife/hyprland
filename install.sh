@@ -5,8 +5,8 @@ GREEN="\033[0;32m"
 RED="\033[0;31m"
 RESET="\033[0m"
 
-echo "INSTALLING PACKAGES"
 echo
+echo "INSTALLING PACKAGES"
 
 # Checking sudo
 if [[ $EUID -ne 0 ]]; then
