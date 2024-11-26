@@ -17,8 +17,17 @@
 	* otf-font-awesome
 * __Application launcher__
 	* wofi
-* __Terminal__
+* __Programs__
 	* kitty
+	* thunar
+* __Utils__
+	* xdg-user-dirs
+	* power-profiles-daemon
+* __Sound drivers__
+	* pipewire
+	* lib32-pipewire
+	* pipewire-pulse
+	* wireplumber
 
 ```bash
 chmod +x install.sh

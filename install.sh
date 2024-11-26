@@ -16,17 +16,39 @@ fi
 
 # Packages
 packages=(
+  # Hyprland
   hyprland
   brightnessctl
+
+  # Screen sharing
   xdg-desktop-portal-hyprland
   xdg-desktop-portal-gtk
   wireplumber
   pipewire
+
+  # Wallpapers
   hyprpaper
+
+  # Status bar
   waybar
   otf-font-awesome
+
+  # Application launcher
   wofi
+
+  # Programs
   kitty
+  thunar
+
+  # Utils
+  xdg-user-dirs
+  power-profiles-daemon
+
+  # Sound drivers
+  pipewire
+  lib32-pipewire
+  pipewire-pulse
+  wireplumber
 )
 
 # Установка пакетов через pacman
