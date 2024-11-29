@@ -10,8 +10,6 @@
 	* xdg-desktop-portal-gtk
 	* wireplumber
 	* pipewire
-* __Wallpapers__
-	* hyprpaper
 * __Status bar__
 	* waybar
 	* otf-font-awesome
@@ -20,9 +18,15 @@
 * __Programs__
 	* kitty
 	* thunar
+	* vscode
+	* lite-xl
 * __Utils__
 	* xdg-user-dirs
 	* power-profiles-daemon
+	* hyprpaper
+	* hyprpicker
+	* hypridle
+	* hyprlock
 * __Sound drivers__
 	* pipewire
 	* lib32-pipewire
