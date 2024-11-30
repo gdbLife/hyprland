@@ -18,16 +18,16 @@ fi
 packages=(
   # Hyprland
   hyprland
-  brightnessctl
+  hyprpaper
+  hyprpicker
+  hypridle
+  hyprlock
 
   # Screen sharing
   xdg-desktop-portal-hyprland
   xdg-desktop-portal-gtk
   wireplumber
   pipewire
-
-  # Wallpapers
-  hyprpaper
 
   # Status bar
   waybar
@@ -39,11 +39,13 @@ packages=(
   # Programs
   kitty
   thunar
+  lite-xl
 
   # Utils
   xdg-user-dirs
   power-profiles-daemon
-
+  brightnessctl
+  
   # Sound drivers
   pipewire
   lib32-pipewire

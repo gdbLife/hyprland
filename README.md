@@ -4,7 +4,10 @@
 
 * __Hyprland__
 	* hyprland
-	* brightnessctl
+	* hyprpaper
+	* hyprpicker
+	* hypridle
+	* hyprlock
 * __Screen sharing__
 	* xdg-desktop-portal-hyprland
 	* xdg-desktop-portal-gtk
@@ -21,12 +24,9 @@
 	* vscode
 	* lite-xl
 * __Utils__
+	* brightnessctl
 	* xdg-user-dirs
 	* power-profiles-daemon
-	* hyprpaper
-	* hyprpicker
-	* hypridle
-	* hyprlock
 * __Sound drivers__
 	* pipewire
 	* lib32-pipewire
