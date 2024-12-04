@@ -24,7 +24,6 @@ done
 packages=(
     hyprland
     brightnessctl
-    wofi
 )
 
 # install packages
