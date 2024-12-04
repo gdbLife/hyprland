@@ -2,7 +2,7 @@ include config.mk
 
 .PHONY: all hyprland clean check-dependencies
 
-all: check-dependencies hyprland hyprpaper hypridle hyprlock xdph waybar programs utils drivers
+all: check-dependencies hyprland hyprpaper hypridle hyprlock xdph waybar wofi programs utils drivers
 
 check-dependencies:
 	@echo
@@ -39,6 +39,11 @@ waybar:
 	@echo
 	@echo -e "$(YELLOW)[MAKE]$(RESET) Installing waybar..."
 	@bash $(SCRIPTS_DIR)/install_waybar.sh
+
+wofi:
+	@echo
+	@echo -e "$(YELLOW)[MAKE]$(RESET) Installing wofi..."
+	@bash $(SCRIPTS_DIR)/install_wofi.sh
 
 programs:
 	@echo
