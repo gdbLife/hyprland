@@ -130,7 +130,7 @@
         ],
         "configs_paths": {
             "modules": [
-                "kitty/kitty.conf"
+                "programs/kitty/kitty.conf"
             ]
         },
         "install_paths": {
