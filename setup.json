@@ -1,0 +1,156 @@
+{
+    "hyprland": {
+        "packages": [
+            "hyprland", 
+            "brightnessctl"
+        ],
+        "configs_paths": {
+            "main": [
+                "hyprland/hyprland.conf"
+            ],
+            "modules": [
+                "hyprland/modules/appearance.conf",
+                "hyprland/modules/autostart.conf",
+                "hyprland/modules/environment.conf",
+                "hyprland/modules/input.conf",
+                "hyprland/modules/keybindings.conf",
+                "hyprland/modules/monitors.conf",
+                "hyprland/modules/windows.conf"
+            ]
+        },
+        "install_paths": {
+            "main": [
+                "~/.config/hypr/hyprland.conf"
+            ],
+            "modules": [
+                "~/.config/hypr/modules/appearance.conf",
+                "~/.config/hypr/modules/autostart.conf",
+                "~/.config/hypr/modules/environment.conf",
+                "~/.config/hypr/modules/input.conf",
+                "~/.config/hypr/modules/keybindings.conf",
+                "~/.config/hypr/modules/monitors.conf",
+                "~/.config/hypr/modules/windows.conf"
+            ]
+        }
+    },
+    "hyprpaper": {
+        "packages": [
+            "hyprpaper"
+        ],
+        "configs_paths": {
+            "main": [
+                "hyprland/hyprpaper.conf"
+            ]
+        },
+        "install_paths": {
+            "main": [
+                "~/.config/hypr/hyprpaper.conf"
+            ]
+        }
+    },
+    "hypridle": {
+        "packages": [
+            "hypridle"
+        ],
+        "configs_paths": {
+            "main": [
+                "hyprland/hypridle.conf"
+            ]
+        },
+        "install_paths": {
+            "main": "~/.config/hypr/hypridle.conf"
+        }
+    },
+    "hyprlock": {
+        "packages": [
+            "hyprlock"
+        ],
+        "configs_paths": {
+            "main": [
+                "hyprland/hyprlock.conf"
+            ]
+        },
+        "install_paths": {
+            "main": [
+                "~/.config/hypr/hyprlock.conf"
+            ]
+        }
+    },
+    "xdph": {
+        "packages": [
+            "xdg-desktop-portal-hyprland", 
+            "xdg-desktop-portal-gtk",
+            "wireplumber",
+            "pipewire"
+        ],
+        "configs_paths": {
+            "main": [
+                "configs/xdph/xdph.conf"
+            ]
+        },
+        "install_paths": {
+            "main": [
+                "~/.config/hypr/xdph.conf"
+            ]
+        }
+    },
+    "wofi": {
+        "packages": [
+            "wofi"
+        ]
+    },
+    "waybar": {
+        "packages": [
+                    "waybar", 
+                    "otf-font-awesome",
+                    "power-profiles-daemon"
+        ],
+        "configs_paths": {
+            "main": [
+                "waybar/config.jsonc"
+            ],
+            "modules": [
+                "waybar/style.css"
+            ]
+        },
+        "install_paths": {
+            "main": [
+                "~/.config/waybar/config.jsonc"
+            ],
+            "modules": [
+                "~/.config/waybar/style.css"
+            ]
+        }
+    },
+    "programs": {
+        "packages": [
+            "kitty", 
+            "thunar",
+            "lite-xl"
+        ],
+        "configs_paths": {
+            "modules": [
+                "kitty/kitty.conf"
+            ]
+        },
+        "install_paths": {
+            "main": [
+                "~/.config/kitty/kitty.conf"
+            ]
+        }
+    },
+    "utils": {
+        "packages": [
+            "xdg-user-dirs"
+        ]
+    },
+    "drivers": {
+        "packages": [
+            "pipewire",
+            "lib32-pipewire",
+            "pipewire-pulse",
+            "wireplumber"
+        ]
+    }
+}
+  

@@ -8,5 +8,6 @@ log() {
         info) echo -e "${YELLOW}[INSTALLER][INFO]${RESET} $message" ;;
         success) echo -e "${GREEN}[INSTALLER][SUCCESS]${RESET} $message" ;;
         error) echo -e "${RED}[INSTALLER][ERROR]${RESET} $message" ;;
+        done) echo -e "${YELLOW}[INSTALLER][INFO]${RESET} ${GREEN}done${RESET}" ;;
     esac
 }

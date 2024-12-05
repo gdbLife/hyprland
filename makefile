@@ -2,7 +2,7 @@ include config.mk
 
 .PHONY: all hyprland clean check-dependencies
 
-all: check-commands hyprland hyprpaper hypridle hyprlock xdph waybar wofi programs utils drivers
+all: check-commands hyprland hyprpaper hypridle hyprlock xdph wofi waybar programs utils drivers
 
 check-commands:
 	@echo
@@ -12,52 +12,60 @@ check-commands:
 hyprland:
 	@echo
 	@echo -e "$(YELLOW)[MAKE]$(RESET) Installing hyprland..."
-	@bash $(SCRIPTS_DIR)/install_hyprland.sh
+	@bash $(SCRIPTS_DIR)/install_packages.sh hyprland
+	@bash $(SCRIPTS_DIR)/install_configs.sh hyprland
 
 hyprpaper:
 	@echo
 	@echo -e "$(YELLOW)[MAKE]$(RESET) Installing hyprpaper..."
-	@bash $(SCRIPTS_DIR)/install_hyprpaper.sh
+	@bash $(SCRIPTS_DIR)/install_packages.sh hyprpaper
+	@bash $(SCRIPTS_DIR)/install_configs.sh hyprpaper
 
 hypridle:
 	@echo
 	@echo -e "$(YELLOW)[MAKE]$(RESET) Installing hypridle..."
-	@bash $(SCRIPTS_DIR)/install_hypridle.sh
+	@bash $(SCRIPTS_DIR)/install_packages.sh hypridle
+	@bash $(SCRIPTS_DIR)/install_configs.sh hypridle
 
 hyprlock:
 	@echo
 	@echo -e "$(YELLOW)[MAKE]$(RESET) Installing hyprlock..."
-	@bash $(SCRIPTS_DIR)/install_hyprlock.sh
+	@bash $(SCRIPTS_DIR)/install_packages.sh hyprlock
+	@bash $(SCRIPTS_DIR)/install_configs.sh hyprlock
 
 xdph:
 	@echo
 	@echo -e "$(YELLOW)[MAKE]$(RESET) Installing xdph..."
-	@bash $(SCRIPTS_DIR)/install_xdph.sh
-
-waybar:
-	@echo
-	@echo -e "$(YELLOW)[MAKE]$(RESET) Installing waybar..."
-	@bash $(SCRIPTS_DIR)/install_waybar.sh
+	@bash $(SCRIPTS_DIR)/install_packages.sh xdph
+	@bash $(SCRIPTS_DIR)/install_configs.sh xdph
 
 wofi:
 	@echo
 	@echo -e "$(YELLOW)[MAKE]$(RESET) Installing wofi..."
-	@bash $(SCRIPTS_DIR)/install_wofi.sh
+	@bash $(SCRIPTS_DIR)/install_packages.sh wofi
+
+waybar:
+	@echo
+	@echo -e "$(YELLOW)[MAKE]$(RESET) Installing waybar..."
+	@bash $(SCRIPTS_DIR)/install_packages.sh waybar
+	@bash $(SCRIPTS_DIR)/install_configs.sh waybar
 
 programs:
 	@echo
 	@echo -e "$(YELLOW)[MAKE]$(RESET) Installing programs..."
-	@bash $(SCRIPTS_DIR)/install_programs.sh
+	@bash $(SCRIPTS_DIR)/install_packages.sh programs
+	@bash $(SCRIPTS_DIR)/install_configs.sh programs
 
 utils:
 	@echo
 	@echo -e "$(YELLOW)[MAKE]$(RESET) Installing utils..."
-	@bash $(SCRIPTS_DIR)/install_utils.sh
+	@bash $(SCRIPTS_DIR)/install_packages.sh utils
+	@bash $(SCRIPTS_DIR)/configurations/utils.sh
 
 drivers:
 	@echo
 	@echo -e "$(YELLOW)[MAKE]$(RESET) Installing drivers..."
-	@bash $(SCRIPTS_DIR)/install_drivers.sh
+	@bash $(SCRIPTS_DIR)/install_packages.sh drivers
 
 clean:
 	@echo

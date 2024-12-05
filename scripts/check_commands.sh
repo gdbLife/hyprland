@@ -8,7 +8,7 @@ source ${REP_ROOT}/scripts/.env
 source ${REP_ROOT}/scripts/logs.sh
 
 # check commands
-commands=(git bash pacman mkdir ln)
+commands=(git bash pacman mkdir ln jq)
 for cmd in ${commands[@]}; do
     command -v "$cmd" &>/dev/null || { log error "$cmd is not installed"; exit 1; }
 done
