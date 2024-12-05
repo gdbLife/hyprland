@@ -2,13 +2,12 @@ include config.mk
 
 .PHONY: all hyprland clean check-dependencies
 
-all: check-dependencies hyprland hyprpaper hypridle hyprlock xdph waybar wofi programs utils drivers
+all: check-commands hyprland hyprpaper hypridle hyprlock xdph waybar wofi programs utils drivers
 
-check-dependencies:
+check-commands:
 	@echo
-	@echo -e "$(YELLOW)[MAKE]$(RESET) Checking dependencies..."
-	@command -v git &>/dev/null || { echo "$(RED)[MAKE][ERROR]$(RESET) git is not installed"; exit 1; }
-	@command -v bash &>/dev/null || { echo "$(RED)[MAKE][ERROR]$(RESET) bash is not installed"; exit 1; }
+	@echo -e "$(YELLOW)[MAKE]$(RESET) Checking commands..."
+	@bash $(SCRIPTS_DIR)/check_commands.sh
 
 hyprland:
 	@echo
