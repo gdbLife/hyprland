@@ -7,6 +7,7 @@ This repository contains configurations and installation scripts for setting up 
 - **configs**: Contains configuration files for Hyprland, Hyprlock, Hyprpaper, Waybar, and various other programs.
 - **scripts**: Contains bash scripts to install and configure the necessary packages and tools for your system.
 - **makefile**: Used to automate installation and configuration tasks.
+- **setup**: File used for settings install
 
 ## Features
 
