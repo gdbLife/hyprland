@@ -39,7 +39,7 @@
         ],
         "configs_paths": {
             "main": [
-                "hyprland/hyprpaper.conf"
+                "hyprpaper/hyprpaper.conf"
             ]
         },
         "install_paths": {
@@ -54,7 +54,7 @@
         ],
         "configs_paths": {
             "main": [
-                "hyprland/hypridle.conf"
+                "hypridle/hypridle.conf"
             ]
         },
         "install_paths": {
@@ -67,7 +67,7 @@
         ],
         "configs_paths": {
             "main": [
-                "hyprland/hyprlock.conf"
+                "hyprlock/hyprlock.conf"
             ]
         },
         "install_paths": {
@@ -85,7 +85,7 @@
         ],
         "configs_paths": {
             "main": [
-                "configs/xdph/xdph.conf"
+                "xdph/xdph.conf"
             ]
         },
         "install_paths": {
